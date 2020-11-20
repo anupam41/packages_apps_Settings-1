@@ -147,4 +147,8 @@
     <string name="category_name_volumes">Volume</string>
     <string name="category_name_security">Security</string>
 
+    <!-- Support -->
+    <string name="ok">OK</string>
+    <string name="edit_hint">Value</string> 
+    <string name="seek_value_edit_label">Set value</string>
 </resources>
