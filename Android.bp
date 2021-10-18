@@ -88,6 +88,7 @@ android_library {
         "kotlinx_coroutines_android",
         "kotlinx_coroutines",
         "androidx.preference_preference-ktx",
+        "VendorSupport-preference",
     ],
 
     libs: [
