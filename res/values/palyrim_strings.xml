@@ -45,4 +45,7 @@
     
     <!-- Battery temperature -->
     <string name="battery_temp">Battery temperature</string>
+
+     <!-- Palyrim Maintainer -->
+    <string name="palyrim_maintainer">Device Maintainer</string>
 </resources>
