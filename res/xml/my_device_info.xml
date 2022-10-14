@@ -95,7 +95,6 @@
             android:order="42"
             android:title="@string/firmware_version"
             android:summary="@string/summary_placeholder"
-            android:fragment="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionSettings"
             settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionPreferenceController"/>
 
         <!-- Lineage version -->
@@ -105,6 +104,7 @@
             android:title="@*lineageos.platform:string/lineage_version"
             android:summary="@string/summary_placeholder"
             settings:enableCopying="true"
+            android:fragment="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionSettings"
             settings:controller="com.android.settings.deviceinfo.firmwareversion.LineageVersionDetailPreferenceController"/>
     </PreferenceCategory>
 
