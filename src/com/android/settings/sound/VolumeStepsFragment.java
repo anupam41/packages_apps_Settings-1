@@ -199,7 +199,7 @@ public class VolumeStepsFragment extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.PLUS_SETTINGS;
+        return MetricsEvent.PALYRIM_SETTINGS;
     }
 
     /**
