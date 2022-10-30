@@ -94,4 +94,8 @@
     <string name="theme_customization_signal_icon_summary">Set custom signal icon style</string>
     <string name="theme_customization_wifi_icon_title">WiFi icon style</string>
     <string name="theme_customization_wifi_icon_summary">Set custom wifi icon style</string>
+
+    <!-- Daily battery usage charge -->
+    <string name="daily_battery_usage_chart">Daily battery usage chart</string>
+    <string name="daily_battery_usage_chart_summary">View usage for past 24 hours</string>
 </resources>
