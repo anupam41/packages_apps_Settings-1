@@ -21,7 +21,7 @@
 
     <SwitchPreference
         android:key="gesture_screen_off_udfps"
-        android:title="@string/ambient_display_screen_off_udfps_title"
+        android:title="@string/ambient_display_screen_off_udfps_subtitle"
         android:summary="@string/ambient_display_screen_off_udfps_summary"
         app:keywords="@string/keywords_gesture"
         app:controller="com.android.settings.gestures.ScreenOffUdfpsPreferenceController"
