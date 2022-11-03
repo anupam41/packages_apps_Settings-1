@@ -90,6 +90,7 @@ android_library {
         "androidx.preference_preference-ktx",
         "VendorSupport-preference",
         "powerusagefeaturegoogle",
+        "faceunlock_framework",
     ],
 
     libs: [
