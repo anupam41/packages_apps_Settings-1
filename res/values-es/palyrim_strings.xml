@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017-2022 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Smart Pause</string>
+    <string name="adaptive_playback_enabled">Usar smart pause</string>
+    <string name="adaptive_playback_disabled_summary">Desactivado</string>
+    <string name="adaptive_playback_intro_text">Automáticamente pausa el contenido multimedia cuando el volumen es silenciado y volverá automáticamente a reproducirse cuando se reestablezca el volumen después del tiempo seleccionado.</string>
+    <string name="adaptive_playback_timeout_title">Usar un tiempo de espera de</string>
+    <string name="adaptive_playback_timeout_none">Sin tiempo de espera</string>
+    <string name="adaptive_playback_timeout_none_summary">Activado (sin tiempo de espera)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 segundos</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Activado (30 segundos)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minuto</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Activado (1 minuto)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutos</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Activado (2 minutos)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutos</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Activado (5 minutos)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutos</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Activado (10 minutos)</string>
+    
+     <!-- Swipe to screenshot -->
+    <string name="swipe_to_screenshot_title">Deslizar para captura de pantalla</string>
+    <string name="swipe_to_screenshot_summary">Desliza con 3 dedos hacia abajo para tomar una captura de pantalla</string>
+
+    <!-- General -->
+    <string name="copied_to_clipboard">Copiado al portapapeles</string>
+    <string name="longpress_to_clipboard">Pulsación larga para copiar</string>
+    
+    <!-- Battery temperature -->
+    <string name="battery_temp">Temperatura de la batería</string>
+
+     <!-- Palyrim Maintainer -->
+    <string name="palyrim_maintainer">Maintainer del dispositivo</string>
+    
+     <!-- Volume Steps Fragment -->
+    <string name="volume_steps_fragment_title">Volume steps</string>
+    <string name="volume_steps_summary">Personaliza los volume steps</string>
+    <string name="volume_steps_alarm_title">Volume steps: Alarma</string>
+    <string name="volume_steps_dtmf_title">Volume steps: DTMF</string>
+    <string name="volume_steps_music_title">Volume steps: Multimedia</string>
+    <string name="volume_steps_notification_title">Volume steps: Notificación</string>
+    <string name="volume_steps_ring_title">Volume steps: Tono</string>
+    <string name="volume_steps_system_title">Volume steps: Sistema</string>
+    <string name="volume_steps_voice_call_title">Volume steps: Llamada de voz</string>
+    <string name="volume_steps_reset">Reiniciar</string>
+
+    <!-- Game Space -->
+    <string name="game_space_title">Espacio de juego</string>
+    <string name="game_space_summary">Mejora tu experiencia de juego</string>
+    
+    <!-- Battery light -->
+    <string name="battery_light_title">Encender la luz cuando se carga</string>
+
+    <!-- reTicker -->
+    <string name="reticker_title">reTicker</string>
+    <string name="reticker_summary">Reemplaza las notificaciones heads-up con una versión rediseñada, mas ligera y menos invasiva </string>
+    <string name="reticker_colored_title">Usar color de fondo de la app</string>
+    <string name="reticker_colored_summary">Replace reTicker background color using notification app main color</string>
+
+    <!-- Per-app volume -->
+    <string name="app_volume">Volume por aplicación</string>
+    <string name="app_volume_title">Control de volumen por aplicación</string>
+    <string name="app_volume_summary">Mostrar botón de volumen por aplicación en el panel de volumen</string>
+    
+    <string name="app_info_install_time">Instalada: %1$s</string>
+    <string name="app_info_update_time">Actualizada: %1$s</string>
+
+    <!-- Font style / Icon pack -->
+    <string name="theme_customization_font_title">Estilo de fuente</string>
+    <string name="theme_customization_font_summary">Seleccionar estilo de fuente</string>
+    <string name="theme_customization_icon_pack_title">Pack de iconos</string>
+    <string name="theme_customization_icon_pack_summary">Seleccionar par de iconos personalizado</string>
+    <string name="theme_customization_icon_shape_title">Forma del icono</string>
+    <string name="theme_customization_icon_shape_summary">Seleccionar estilo de forma de icono</string>
+
+    <string name="theme_customization_signal_icon_title">Estilo de icono de señal</string>
+    <string name="theme_customization_signal_icon_summary">Seleccionar estilo de icono de señal personalizado</string>
+    <string name="theme_customization_wifi_icon_title">Estilo de icono de wifi</string>
+    <string name="theme_customization_wifi_icon_summary">Seleccionar estilo de icono de wifi personalizado</string>
+
+    <!-- Daily battery usage charge -->
+    <string name="daily_battery_usage_chart">Gráfico de uso diario de batería</string>
+    <string name="daily_battery_usage_chart_summary">Ver uso durante las últimas 24 horas</string>
+
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Elimina el escaneo facial existente y crea uno nuevo</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Repetir escaneo facial</string>
+    <string name="face_redo_confirm_btn">Repetir</string>
+    <string name="face_redo_warning_msg">¿Quieres eliminar el escaneo facial existente y crear uno nuevo?</string>
+    <string name="face_unlock_method_title">Permitir desbloqueo facial en pantalla de bloqueo</string>
+    <string name="face_unlock_method_default">Cuando la pantalla está encendida</string>
+    <string name="face_unlock_method_swipe">Cuando deslizas en pantalla de bloqueo</string>
+
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Información de carga en pantalla de bloqueo</string>
+    <string name="lockscreen_battery_info_summary">Mostrar carga actual, voltaje, vataje y temperatura de batería en pantalla de bloqueo mientras carga</string>
+
+     <!-- Ignore secure window -->
+    <string name="developer_options_category">Opciones de desarrollo</string>
+    <string name="ignore_window_secure_title">Ignorar flags de pantalla segura</string>
+    <string name="ignore_window_secure_summary">Elimina las limitaciones de captura y grabación de pantalla para todas las aplicaciones. Por defecto aplicaciones especiales son reemplazadas por zonas vacías en la panalla. Puede ser conveniente en algunos casos por privacidad de datos. Al cambiar este ajustes puede que necesites reiniciar las aplicaciones para que se aplique el cambio.</string>
+
+     <!-- Screen Off animation -->
+    <string name="screen_off_animation_title">Animación de apagado de pantalla</string>
+    <string name="screen_off_animation_default">Por defecto</string>
+    <string name="screen_off_animation_crt">CRT</string>
+    <string name="screen_off_animation_scale">Escalado</string>
+
+     <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_title">Animación de gesto de atrás</string>
+    <string name="back_gesture_arrow_summary">Muestra una flecha animada para el gesto de atrás</string>
+
+     <!-- Back gesture haptic -->
+    <string name="back_gesture_haptic_title">Vibración de gesto de atrás</string>
+    <string name="back_gesture_haptic_summary">Vibra cuando se realiza el gesto de atrás</string>
+
+</resources>
