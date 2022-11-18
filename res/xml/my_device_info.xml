@@ -59,15 +59,6 @@
         android:selectable="false"
         android:title="@string/my_device_info_device_details_category_title">
 
-        <!-- SIM status -->
-        <Preference
-            android:key="sim_status"
-            android:order="18"
-            android:title="@string/sim_status_title"
-            settings:keywords="@string/keywords_sim_status"
-            android:summary="@string/summary_placeholder"
-            settings:enableCopying="true"/>
-
         <!-- Model & hardware -->
         <Preference
             android:key="device_model"
@@ -78,16 +69,6 @@
             settings:enableCopying="true"
             settings:keywords="@string/keywords_model_and_hardware"
             settings:controller="com.android.settings.deviceinfo.HardwareInfoPreferenceController"/>
-
-        <!-- IMEI -->
-        <com.android.settings.deviceinfo.PhoneNumberSummaryPreference
-            android:key="imei_info"
-            android:order="32"
-            android:title="@string/status_imei"
-            android:summary="@string/summary_placeholder"
-            settings:keywords="@string/keywords_imei_info"
-            settings:enableCopying="true"
-            settings:controller="com.android.settings.deviceinfo.imei.ImeiInfoPreferenceController"/>
 
         <!-- Android version -->
         <Preference
@@ -106,10 +87,38 @@
             settings:enableCopying="true"
             android:fragment="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionSettings"
             settings:controller="com.android.settings.deviceinfo.firmwareversion.LineageVersionDetailPreferenceController"/>
+
+        <!-- Build number -->
+        <Preference
+            android:key="build_number"
+            android:order="53"
+            android:title="@string/build_number"
+            android:summary="@string/summary_placeholder"
+            settings:enableCopying="true"
+            settings:controller="com.android.settings.deviceinfo.BuildNumberPreferenceController"/>
     </PreferenceCategory>
 
     <PreferenceCategory
         android:title="@string/my_device_info_device_identifiers_category_title">
+
+        <!-- SIM status -->
+        <Preference
+            android:key="sim_status"
+            android:order="18"
+            android:title="@string/sim_status_title"
+            settings:keywords="@string/keywords_sim_status"
+            android:summary="@string/summary_placeholder"
+            settings:enableCopying="true"/>
+
+        <!-- IMEI -->
+        <com.android.settings.deviceinfo.PhoneNumberSummaryPreference
+            android:key="imei_info"
+            android:order="32"
+            android:title="@string/status_imei"
+            android:summary="@string/summary_placeholder"
+            settings:keywords="@string/keywords_imei_info"
+            settings:enableCopying="true"
+            settings:controller="com.android.settings.deviceinfo.imei.ImeiInfoPreferenceController"/>
 
         <!--IP address -->
         <Preference
@@ -176,15 +185,6 @@
             android:order="52"
             android:title="@string/fcc_equipment_id"
             android:summary="@string/summary_placeholder"/>
-
-        <!-- Build number -->
-        <Preference
-            android:key="build_number"
-            android:order="53"
-            android:title="@string/build_number"
-            android:summary="@string/summary_placeholder"
-            settings:enableCopying="true"
-            settings:controller="com.android.settings.deviceinfo.BuildNumberPreferenceController"/>
     </PreferenceCategory>
 
 </PreferenceScreen>
