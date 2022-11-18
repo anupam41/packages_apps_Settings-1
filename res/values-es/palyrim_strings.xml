@@ -131,4 +131,19 @@
     <string name="back_gesture_haptic_title">Vibración de gesto de atrás</string>
     <string name="back_gesture_haptic_summary">Vibra cuando se realiza el gesto de atrás</string>
 
+    <!-- Old mobile type icons -->
+    <string name="use_old_mobiletype_title">Tipo de icono de red pequeño</string>
+    <string name="use_old_mobiletype_summary">Mostrar icono de red pequeño encima del indicador de señal</string>
+
+    <!-- DC Dimming -->
+    <string name="dc_dimming_title">DC Dimming</string>
+    <string name="dc_dimming_info">Reduce cansacion ocular en condiciones de poca luminosidad reduciendo el parpadeo de la pantalla. Puede reducir la calidad de imagen, producción de color o mayor consumo de energía.</string>
+    <string name="dc_dimming_main_switch_title">Usar DC Dimming</string>
+    <string name="keywords_display_dc_dimming">dc dimming, anti, flicker, eye, strain</string>
+
+    <!-- Categories -->
+    <string name="category_name_refresh_rate">Tasa de refresco</string>
+    <string name="category_name_appearance">Apariencia</string>
+    <string name="category_name_volumes">Volumen</string>
+    <string name="category_name_security">Seguridad</string>
 </resources>
