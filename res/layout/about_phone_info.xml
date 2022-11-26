@@ -10,7 +10,7 @@
 	android:background="@drawable/about_card"
         android:orientation="horizontal"
 	android:layout_marginHorizontal="16dp"
-	android:layout_marginBottom="18dp">
+	android:layout_marginBottom="20dp">
 		
 	<com.google.android.material.card.MaterialCardView
             android:id="@+id/phone_image"

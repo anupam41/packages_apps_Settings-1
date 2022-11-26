@@ -22,6 +22,13 @@
     android:layout="@layout/about_phone_info"
     android:selectable="false" />
 
+    <Preference android:key="rom_build_status" 
+        settings:layout="@layout/card_build_status" 
+        android:title="@string/build_status" 
+        android:summary="@string/build_status_summary_placeholder" 
+        android:icon="@drawable/ic_build_status"
+        settings:enableCopying="true"
+        android:selectable="true" />
 
     <!-- Top category -->
     <!-- Device name -->

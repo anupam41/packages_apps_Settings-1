@@ -211,5 +211,5 @@
     <color name="user_avatar_color_bg">?androidprv:attr/colorSurface</color>
 
     <color name="user_crd_bg">@android:color/system_neutral1_0</color>
-    <color name="homepage_subicon_bg">@android:color/system_accent1_600</color>
+    <color name="homepage_subicon_bg">?android:attr/colorAccent</color>
 </resources>
