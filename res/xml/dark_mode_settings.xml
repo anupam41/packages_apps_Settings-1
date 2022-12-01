@@ -62,4 +62,12 @@
         settings:searchable="false"
         settings:controller="com.android.settings.display.darkmode.DarkModeCustomBedtimePreferenceController" />
 
+    <lineageos.preference.LineageSecureSettingListPreference
+        android:key="system_custom_theme" 
+        android:title="@string/custom_theme_title" 
+        android:summary="@string/custom_theme_summary"
+        android:defaultValue="0" 
+        android:entries="@array/custom_theme_entries"
+        android:entryValues="@array/custom_theme_values" />
+
 </PreferenceScreen>
